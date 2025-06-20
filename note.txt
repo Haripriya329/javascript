@@ -1,0 +1,173 @@
+--------------------------MODULE 2-------------------------
+------------------------java Script------------------------
+
+features
+----------
+-it can be used in both frontend and backend
+-in frontend js proide behaviour
+-in backend it helps in logical operations
+-js suooport both procedural and object oreinted programming
+-its a dynamically typed language - means datatype changes during runtime
+-single thread programming language (line by line execution)
+
+
+BACKEND PROCEDURAL programming
+------------------------------
+
+-how to create a file
+    -filename.js
+    -node - environment to run js outside the browser , cmd
+    -run - node filename.js
+
+display a content
+-----------------
+console.log(content)    
+
+DATATYPES
+---------
+-two tpyes
+primitive and non primitive
+
+primitive 
+    -immutable datatypes-cannot be chnaged - reassigne a new value
+    1]string - sequence of characters - ''/""
+    2]number -
+    3]boolean - true or false
+    4]undefined - variable created but not assigned value
+    5]null - intentional absence of value of x = null
+    6]bigint - larger numbers
+    7]symbol - identify uniquely - eg: while creating libraries
+
+non-primitive
+    -mutable - can be changed 
+    -combination of primitive datatypes
+    8]object -should be stored as key:value pairs - can store more than one data
+    eg:oject, array, function
+
+variables
+---------
+-used to store data 
+syntax
+    variable = value
+    keyword variable = value
+
+    rules to create variable name - identifiers
+    -------------------------------------------
+    1]should not start with a digit
+    2]subsequent characters can be  alphabets, digits, characters etc    
+    3]if there is  more than one word in variable            
+          -camelcase (car name - carName)
+          -words can be seperated by undersscore car_name->snakecase
+    4]variable name is case sensitive      
+
+
+cases
+-----
+camelcase -carName
+pascal -CarName
+snakecase -car_name
+kabab case - car-name
+train case -Car-name
+upper shake case - car_name
+flat case - carName
+dot case-car.name
+
+keywords
+-------
+-set of reserved words
+-it gives special meanings to the varibables
+
+##important
+
+1]let - reassigning possible - no redeclaration - hoisting not possible - block level scope
+2]const - no reassigning is possible - no rdeclaration -hoisting not possible -function level/global level
+3]var- reassigning is possible - can ve redeclared - hoisting is possible - global level
+
+## HOISTING
+   --------
+  using a variable before its is declared
+##
+  concatenation
+  -------------
+  -appending (add) one or more datatypes
+  number + number = number
+  string + number = string
+  string + string = string
+
+  template literal
+  ----------------
+  its a way of displaying content 
+
+  content ${variable}
+
+  OPERATORS
+  ---------
+1] assignement operator (=)
+2]arithmetic (+,-,*,/,reminder-%,exponential-**)
+3]relational operators (>= - greater than or equal to,> - greater than,<-less than,<= less than or equal to,== - double eual to,=== - triple equal to)
+    return boolean value
+4] relational operators retun boolean
+
+logical operators
+-----------------
+1]&&- and
+ T && T = T
+ T && f =f
+ F && T =F
+ F && F =F
+2]||- or
+ T || T = T
+ T || f =T
+ F || T =T
+ F || F =F
+3] !- not
+!T =f
+!f =T
+- used in between relational operatorations it also return boolean values
+
+Increment (++) and decrement (--) operators
+--------------------------------
+
+short hand operator
+------------------
+x=x+10 ->x+=10
+
+ternary operator
+----------------
+condition? truestatement : false statement
+
+truthy operator  (if there is only 'if' part no else part)
+--------------
+condition && statement
+
+condition statements or decision making statements
+--------------------------------------------------
+-to conditionally excute a statement
+1] if else
+syntax : 
+    if(condition){
+        statement
+    }
+    else if(condition){
+        
+    }
+    else{
+        statement
+    }
+-at a time only one block executes
+
+looping statements
+------------------
+-to execute a statement repeatedly in a programme file
+-once control entire lopp - exit is only possible when the condition is false
+1]while
+
+syntax
+-------
+variable initialization
+
+while (condition){
+    statementexit condition / increment or decrement condition
+}
+
+2]for
