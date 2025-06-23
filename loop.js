@@ -107,20 +107,51 @@
 // console.log(original==rev?'palindrome' :'not palindrome');
 
 // w.ap to print factorial of  a number
-input = 5
-i = 1
-product = 0
-while (i <= 5) {
+// input = 5
+// i = 1
+// product = 1
+// while (i <= 5) {
 
-    if (input == 0) {
-        product = 1;
-    }
-    else {
-        product = product * 1
-        i--
-    }
-
-}
-console.log(product);
+//     if (input == 0) {
+//         product = 1;
+//     }
+//     else {
+//         product = product * i
+//         i++
+//     }
+// }
+// console.log(product);
 
 // w.a.p to find a number is amstrong or not  --153 = 1^3 + 5^3 + 3^3
+
+
+// input = 153
+// amstrong = 0
+// original=input
+// while (input>0) {
+//     let x = (input % 10)
+//     amstrong += x*x*x
+//     input = Math.floor(input / 10)
+// }
+// if(original==amstrong)
+// {
+//     console.log(`number is amstrong`); 
+// }
+// else{
+//     console.log(`number is not amstrong`);
+// }
+
+// /w.a.p to print all numbers whose exponential is in the range of 8 to 36, userr can input the number
+
+i = 1
+expo = 2
+while (i <= 36) {
+    x = i ** expo
+    if (x >= 8 && x <= 36){
+        console.log(i);
+    }
+    if(x>36){
+        break
+    }
+     i++
+}
