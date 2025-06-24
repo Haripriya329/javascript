@@ -4,7 +4,7 @@
 features
 ----------
 -it can be used in both frontend and backend
--in frontend js proide behaviour
+-in frontend js provide behaviour
 -in backend it helps in logical operations
 -js suooport both procedural and object oreinted programming
 -its a dynamically typed language - means datatype changes during runtime
