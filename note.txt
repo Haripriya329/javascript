@@ -167,7 +167,8 @@ syntax
 variable initialization
 
 while (condition){
-    statementexit condition / increment or decrement condition
+    statement
+    exit condition / increment or decrement condition
 }
 
 2]for

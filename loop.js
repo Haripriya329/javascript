@@ -147,11 +147,11 @@ i = 1
 expo = 2
 while (i <= 36) {
     x = i ** expo
-    if (x >= 8 && x <= 36){
+    if (x >= 8 && x <= 36) {
         console.log(i);
     }
-    if(x>36){
+    if (x > 36) {
         break
     }
-     i++
+    i++
 }

@@ -1,0 +1,47 @@
+for(initialization ; condition ; increment/decrement){
+statements
+}
+------------------------------------ 5 mark 
+
+
+while(condition){
+statements
+}
+
+-------------------------------- 0 mark 
+
+
+variable name = value
+
+-------------------------------- 2.5 mark 
+
+logical
+relational
+truthy
+shorthand
+ternary
+increment/decrement
+assignment
+arithmetic
+
+----------------------------------- 5 mark 
+
+
+
+hoisting - executing before declaring a variable
+ex:x=x+10
+   x=30
+
+------------------------------------- 5mark 
+identifier is  a variable
+
+
+-------------------------------------- 0 mark
+
+features of js
+--------------
+
+both back end and front end
+back end-logical -
+
+------------------------------------- 0 mark
