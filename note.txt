@@ -9,6 +9,7 @@ features
 -js suooport both procedural and object oreinted programming
 -its a dynamically typed language - means datatype changes during runtime
 -single thread programming language (line by line execution)
+-ES -6 is the latest version (ECMAScript)
 
 
 BACKEND PROCEDURAL programming
@@ -188,3 +189,57 @@ BREAK
 it is used to forcefullt exisite a loop
                                    ----
 
+FUNCTIONS
+---------
+-to execute a set of code repeatedly at different location of the programme
+- has 2 parts
+    1]function definition
+        -place a set of code that need to be executed
+        -syntax:
+            function fname(arg1......argn){
+                statement
+            }
+    2]function call
+        -to execute the code
+        -syntax:
+            fname()
+
+    - functions helps in reducing boiler plate (same set of codes repeating again and again)codes      
+    ->argument-actual value
+    ->parameter-variables to represent the actual values  
+
+       - variables created inside the function is having functional scope-it cannot be used outside the function definition
+
+       - if u want to the variable need to accessed outside the function u need to return that variable
+
+       -statements after the return statements will not execute - so it must be places as the last statement inside the function definition
+
+ARROW FUNCTION
+--------------
+-is a function itself
+-same output with lesser number of lines
+syntax
+------
+const variablename = (arg1,.....argn) =>
+
+variablename()
+
+TYPES OF FUNCTION
+-----------------
+
+1]CALL BACK FUNCTION
+-------------------
+    -functions that are called by another function
+    -and the child function is passed as an argument to the parent function
+
+2]NESTED FUNCTION
+------------------
+    -the function that calls another function
+    (parent function calls the child function)
+    -child function is defined inside the parent function
+    -closure property (lexical scope)- variables inside the parent function can be accessed by the child function but vice versa is not possible    
+
+3]PREDEFINED FUNCTIONS   
+---------------------
+    -already defined functions - developers justneed to call them to do a certain taask
+    eg-log(),typeof(),string(),Math.floor(),parseInt() etc.. 

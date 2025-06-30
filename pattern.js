@@ -156,20 +156,21 @@ for(row=3;row>=1;row--){
     }
     console.log(str)
 }
+console.log("---------------------------------");
 
 //        *
 //      *    *
 //    *    *   *
 //  *   *    *   *
 
-// for (row = 1; row <= 4; row++) {     
-//     str = ""
-//     for (spa = 4; spa > row; spa--) {
-//         str += "  "
-//     }
-//     for (col = 1; col <= row; col++) {
-//         str += ' *  '
-//     }
-//     console.log(str);
+for (row = 1; row <= 4; row++) {     
+    str = ""
+    for (spa = 4; spa > row; spa--) {
+        str += "  "
+    }
+    for (col = 1; col <= row; col++) {
+        str += ' *  '
+    }
+    console.log(str);
 
-// }
+}
