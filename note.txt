@@ -243,3 +243,51 @@ TYPES OF FUNCTION
 ---------------------
     -already defined functions - developers justneed to call them to do a certain taask
     eg-log(),typeof(),string(),Math.floor(),parseInt() etc.. 
+
+4]SYNCHRONOUS FUNCTION
+----------------------
+    functions which doesnot have time delay
+    eg:
+
+5]ASYNCHRONOUS FUNCTION
+-----------------------
+    functions which doesnot have time delay
+    eg: api calls,setTimeout()
+
+6] ANONYMOUS FUNCTION //refer n learn
+---------------------
+function without a name  
+
+DATASTRUCTURE
+--------------
+-specialized format for organizing retrieving and storing data
+
+    array
+    -----
+    -unlike varibales array can hold more than one data of different datatypes that are separated by comas and enclosed within a square bracket 
+
+    INDEX
+    _____
+    -is used as a key to hold the value
+    -index value starts with 0 - last value -(length-1)
+
+    length - total number of memory it will be consuming   
+
+to acess array items
+-------------------
+1)array [index]
+2)normal for loop
+3)for in - return indexes of given array
+4)for of - return directly the item of the array      
+
+-to add data to array
+----------------
+    - push('item') - add items to the end of the array
+    -unshift(item)- add items to the start
+
+delete an item from array
+-------------------------
+    - pop() - remove  last item from array
+    -shift - remove  first item from array
+
+array in js is infinite

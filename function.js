@@ -62,6 +62,7 @@ function greatest(x, y) {
 greatest(x, y)
 console.log('-------------------------------');
 
+const great = 
 // to display cube of a given number 
 
 x = 5
